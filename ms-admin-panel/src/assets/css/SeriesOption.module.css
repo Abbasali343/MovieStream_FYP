@@ -1,0 +1,46 @@
+.main{
+    width: 450px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #fff;
+    transform: translate(180px,-450px);
+    position: absolute;
+    z-index: 15;    
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    transform: translate(140px,-10px);
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.select{
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(133, 133, 199);
+    transform: translate(0px,0px);
+    background-color: #fff;
+    position: relative;
+    transition: all 0.5s;
+}
+.select:after{
+    width: 0%;
+    height: 100%;
+    content: "";
+    background-color: rgb(133, 133, 199);
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -2;
+    transition: all 0.5s;
+    
+}
+.select:hover{
+    color: rgb(133, 133, 199);
+}
+.select:hover:after{
+    width: 100%;
+}

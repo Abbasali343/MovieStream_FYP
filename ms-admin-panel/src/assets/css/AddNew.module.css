@@ -1,0 +1,27 @@
+.add {
+  width: 120px;
+  height: 40px;
+  color: black;
+  border: 1px solid rgb(133, 133, 199);
+  background-color: #fff;
+  transform: translate(800px, -30px);
+  position: relative;
+  transition: all 0.5s;
+}
+.add:after {
+  width: 0%;
+  height: 100%;
+  content: "";
+  background: rgb(133, 133, 199);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.add:hover {
+  color: #fff;
+}
+.add:hover:after {
+  width: 100%;
+}

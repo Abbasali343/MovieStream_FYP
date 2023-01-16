@@ -1,0 +1,32 @@
+.dropdown{
+    width: 180px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding-left: 15px;
+    transform: translate(-200px,20px);
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.options{
+    margin-top: 10px;
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    top: 340px;
+    left: 252px;
+    
+}
+.language{
+    width: 180px;
+    height: 30px;
+    margin-top: 1px;
+    background-color: #fff;
+    border: none;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+
+}

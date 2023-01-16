@@ -1,0 +1,9 @@
+.backdrop{
+    width: 1100px;
+    height: 700px;
+    transform: translate(-40px,-680px);
+    background-color: black;
+    opacity: 70%;
+    position: absolute;
+    z-index: 10;
+}
